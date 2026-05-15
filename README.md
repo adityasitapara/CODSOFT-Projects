@@ -153,3 +153,110 @@ The model predicts future sales based on advertising expenditures and helps unde
 
 ---
 
+# 4 - Credit Card Fraud Detection
+
+## Project Overview
+This project focuses on detecting fraudulent credit card transactions using Machine Learning techniques. The model analyzes transaction patterns and classifies transactions as either fraudulent or genuine.
+
+The project involves data preprocessing, handling class imbalance, normalization, visualization, and training a classification model to improve fraud detection accuracy.
+
+---
+
+## Technologies Used
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+
+---
+
+## Machine Learning Algorithm
+- Logistic Regression
+
+---
+
+## Dataset Information
+The dataset contains anonymized credit card transaction data including:
+- Transaction Amount
+- Transaction Features (V1 to V28)
+- Transaction Class
+
+Target Variable:
+- Class
+  - 0 → Genuine Transaction
+  - 1 → Fraudulent Transaction
+
+---
+
+## Features of the Project
+- Data Cleaning
+- Data Normalization
+- Handling Class Imbalance
+- Fraud Detection
+- Data Visualization
+- Correlation Analysis
+- Model Training and Evaluation
+
+---
+
+## Data Preprocessing
+The following preprocessing steps were performed:
+- Missing value checking
+- Feature normalization using StandardScaler
+- Removal of unnecessary columns
+- Oversampling minority fraud class
+
+---
+
+## Machine Learning Workflow
+1. Data Collection
+2. Data Preprocessing
+3. Data Normalization
+4. Handling Imbalanced Data
+5. Exploratory Data Analysis
+6. Model Training
+7. Fraud Prediction
+8. Model Evaluation
+
+---
+
+## Evaluation Metrics
+The model was evaluated using:
+- Accuracy Score
+- Precision Score
+- Recall Score
+- F1 Score
+- Confusion Matrix
+
+---
+
+## Visualizations Included
+- Fraud vs Genuine Transaction Distribution
+- Correlation Heatmap
+- Confusion Matrix
+
+---
+
+## Project Output
+The trained Machine Learning model can successfully identify fraudulent credit card transactions and distinguish them from genuine transactions.
+
+---
+
+## Files Included
+- Credit_Card_Fraud_Detection.ipynb
+- Credit_Card_Fraud_Detection.py
+- creditcard.csv
+- balanced_creditcard_dataset.csv
+- credit_card_fraud_detection_model.pkl
+- README.md
+
+---
+
+## How to Run the Project
+
+### Install Required Libraries
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn joblib
+
